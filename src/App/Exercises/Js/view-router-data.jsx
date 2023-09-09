@@ -7,6 +7,7 @@ import { blockRouterMetaData as blockRouterMetaDataJsComplexTypes } from './Exer
 import { blockRouterMetaData as blockRouterMetaDataJsFunctionBasics } from './JsFunctionBasics/router-data';
 import { blockRouterMetaData as blockRouterMetaDataBlok22Warmup } from './Blok22Warmup/router-data';
 import { blockRouterMetaData as blockRouterMetaDataSetTimeout } from './SetTimeout/router-data';
+import { blockRouterMetaData as blockRouterMetaDataVanishString } from './VanishString/router-data';
 
 export const blockRouterMetaData = [
   blockRouterMetaDataJsVariables1,
@@ -16,5 +17,6 @@ export const blockRouterMetaData = [
   blockRouterMetaDataJsFunctionBasics,
   blockRouterMetaDataBlok22Warmup,
   blockRouterMetaDataSetTimeout,
+  blockRouterMetaDataVanishString,
 ];
 export const blockRouterData = getParsedRouterDataList(blockRouterMetaData);
