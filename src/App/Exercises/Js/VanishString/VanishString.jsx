@@ -18,7 +18,7 @@ export const VanishString = () => {
   return (
     <div>
       <button onClick={handleOnClick}>Pokaż napis</button>
-      {isVisible && <div>Napis: Hello</div>}
+      {isVisible && <div>Hello</div>}
     </div>
   );
 };
