@@ -1,0 +1,29 @@
+.main-button {
+  display: inline-flex;
+  min-width: 10.2rem;
+  height: 3.5rem;
+  padding: 0 2.25rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+
+  color: white;
+
+  font-family: 'Poppins' sans-serif;
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: calc(33.5rem -2px);
+}
+.main-button-primary {
+  border: 1px solid #23213d;
+  background: #23213d;
+}
+.main-button-secondary {
+  border: 1px solid #fe3756;
+  background: #fe3756;
+}
+
+.main-button-tetriary {
+  border: 1px solid #e12b1b;
+  background: #e12b1b;
+}
