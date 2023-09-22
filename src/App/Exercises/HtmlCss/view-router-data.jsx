@@ -1,6 +1,6 @@
 import { getParsedRouterDataList } from '../../router-data/parseRouterData';
-
 import { blockRouterMetaData as blockRouterMetaData121220231 } from './Exercise-example-12-12-2023-1/router-data';
+import { blockRouterMetaData as CSSCascadesBlockRouteMetaData } from './SelectorsAndCascade/router-data';
 import { blockRouterMetaData as blockRouterMetaDataTextFundaments } from './TextFundaments/router-data';
 import { blockRouterMetaData as blockRouterMetaDataStandardTags } from './StandardTags/router-data';
 import { blockRouterMetaData as blockRouterMetaDataGoogleFonts } from './GoogleFonts/router-data';
@@ -13,8 +13,10 @@ import { blockRouterMetaData as blockRouterMetaDataArrayRenderToTable2 } from '.
 import { blockRouterMetaData as blockRouterMetaDataFloatsAndPositioningExercises } from './FloatsAndPositioningExercises/router-data';
 import { blockRouterMetaData as blockRouterMetaDataFloatsAndPositioning } from './FloatsAndPositioning/router-data';
 import { blockRouterMetaData as blockRouterMetaDataRWD } from './RWD/router-data';
+
 export const blockRouterMetaData = [
   blockRouterMetaData121220231,
+  CSSCascadesBlockRouteMetaData,
   blockRouterMetaDataTextFundaments,
   blockRouterMetaDataStandardTags,
   blockRouterMetaDataGoogleFonts,
