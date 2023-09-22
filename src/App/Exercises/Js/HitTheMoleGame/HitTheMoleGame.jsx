@@ -2,7 +2,7 @@ import './styles.css';
 import { MainHeader } from '../../../Components/MainHeader';
 import { Button } from '../../../Components/Button';
 import { useState } from 'react';
-// import { Tile } from ;
+import { Tile } from './Tile';
 
 const MINUTE = 60000;
 
@@ -70,11 +70,11 @@ export const HitTheMoleGame = () => {
         <span className="mole-output"> 16</span>
       </div>
       <span className="mole-label"> PRZYCISKI STERUJĄCE</span>
-      <Button variant="tetriary" onClick={handleStopOnClick} variant="tetriary">
+      {/* <Button variant="tetriary" onClick={handleStopOnClick} variant="tetriary">
         STOP{' '}
-      </Button>
+      </Button> */}
 
-      {/* <Tile /> */}
+      <Tile />
     </div>
   );
 };

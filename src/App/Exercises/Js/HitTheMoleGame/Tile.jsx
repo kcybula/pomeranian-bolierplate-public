@@ -1,7 +1,9 @@
-// import Mole from '../../../Images/Mole.svg'
+import Mole from '../../../Images/Mole.svg';
 
-// export const Tile = () => {
-//     return (
-//     <button><img src={Mole} alt="obrazek kreta" /></button>>
-//     );
-// };
+export const Tile = () => {
+  return (
+    <button>
+      <img src={Mole} alt="obrazek kreta" />
+    </button>
+  );
+};
