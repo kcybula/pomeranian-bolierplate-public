@@ -15,6 +15,7 @@ import { blockRouterMetaData as blockRouterMetaDataJsNumbers } from './Numbers/r
 import { blockRouterMetaData as blockRouterMetaDataJsJsNumbersTraining } from './JsNumbersTraining/router-data';
 import { blockRouterMetaData as blockRouterMetaDataOOP } from './OOP/router-data';
 import { blockRouterMetaData as blockRouterMetaDataOOPzadania } from './OOP-Zadania/router-data';
+import { blockRouterMetaData as blockRouterMetaDataJsonHMLStorage } from './JsonHMLStorage/router-data';
 export const blockRouterMetaData = [
   blockRouterMetaDataJsVariables1,
   blockRouterMetaDataJsVariables2,
@@ -31,5 +32,6 @@ export const blockRouterMetaData = [
   blockRouterMetaDataJsJsNumbersTraining,
   blockRouterMetaDataOOP,
   blockRouterMetaDataOOPzadania,
+  blockRouterMetaDataJsonHMLStorage,
 ];
 export const blockRouterData = getParsedRouterDataList(blockRouterMetaData);
